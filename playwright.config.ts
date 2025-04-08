@@ -12,7 +12,7 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL || 'https://www.saucedemo.com', // Load from .env
     browserName: 'chromium', // Default browser
-    headless: false, // Run in headless mode false | true
+    headless: true, // Run in headless mode false | true
     screenshot: 'only-on-failure', // Take screenshots on failure
     video: 'retain-on-failure', // Capture video on failure
     trace: 'on-first-retry', // Capture trace on first retry
