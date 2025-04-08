@@ -9,9 +9,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        shard: [1, 2, 3, 4] # Devide tests on 4 parts
+    #strategy:
+      #matrix:
+        #shard: [1, 2, 3, 4] # Devide tests on 4 parts
 
     steps:
     - name: Checkout code
@@ -26,4 +26,4 @@ jobs:
       run: npm install
 
     - name: Run tests
-      run: npm test -- --shard=${{ matrix.shard }}/4
+      run: npm test # -- --shard=${{ matrix.shard }}/4
