@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "Node",
+      "baseUrl": "./",
+      "paths": {
+        "@pages/*": ["pages/*"]
+      }
+    }
+  }
+  

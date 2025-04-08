@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Playwright reports and artifacts
+playwright-report/
+test-results/
+test-sets/
+trace.zip
+
+# TypeScript build artifacts
+*.js
+*.js.map
+*.d.ts
+dist/
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+
+# VS Code settings
+.vscode/
+
+# Environment variables and sensitive files
+.env
+
+# Cursor rules
+.cursorrules
+.cursor 
+

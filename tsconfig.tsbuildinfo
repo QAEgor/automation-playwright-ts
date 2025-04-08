@@ -1,0 +1,1 @@
+{"root":["./playwright.config.ts","./pages/loginpages.ts","./tests/ui/login.spec.ts","./utils/helpers.ts"],"version":"5.8.2"}
