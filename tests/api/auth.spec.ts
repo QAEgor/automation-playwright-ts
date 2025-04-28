@@ -10,7 +10,7 @@ test.describe('Authentication API', () => {
     await api.init();
   });
 
-  test.only('Successful login', async () => {
+  test('Successful login', async () => {
     const response = await api.login('standard_user', 'secret_sauce');
     expect(response.ok()).toBeTruthy();
     expect(response.status()).toBe(200);
