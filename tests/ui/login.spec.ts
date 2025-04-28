@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from '../../pages/LoginPages';
 import { checkConsoleErrors } from '../../utils/helpers';
 
-test.only('User can log in successfully', async ({ page }) => {
+test('User can log in successfully', async ({ page }) => {
   const loginPage = new LoginPage(page);
 
   // Start monitoring console errors
